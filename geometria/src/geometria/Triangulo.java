@@ -28,4 +28,22 @@ public class Triangulo
 		
 		return area;
 	}
+	
+	public void desenhar()
+	{
+		for(int i=0; i < base; i++)
+		{			
+			for (int j = 0; j <= i; j++) 
+			{
+				if( i == j ) 
+				{
+					System.out.println(" ");
+				}
+				else
+				{
+					System.out.print(" .");
+				}
+			}
+		}
+	}
 }

@@ -20,4 +20,18 @@ public class Circulo
 		
 		return area;
 	}
+	
+	public void desenhar()
+	{
+		for(int i=0; i < raio; i++)
+		{			
+			for (int j=0; j < raio; j++) 
+			{
+				System.out.print(" .");
+			}
+			System.out.println(" .");
+			
+			
+		}
+	}
 }
