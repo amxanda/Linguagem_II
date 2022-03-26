@@ -9,22 +9,22 @@ public class Main
 		quadrado1.setLado(5);
 		
 		Retangulo retangulo1 = new Retangulo();
-		retangulo1.setBase(7);
-		retangulo1.setAltura(3);
+		retangulo1.setBase(3);
+		retangulo1.setAltura(6);
 		
 		Circulo circulo1 = new Circulo();
 		circulo1.setRaio(9);
 		
 		Triangulo triangulo1 = new Triangulo();
-		triangulo1.setBase(6);
+		triangulo1.setBase(8);
 		triangulo1.setAltura(8);
 		
 		Quadrado primeiroQuadrado = new Quadrado();
 		primeiroQuadrado.setLado(5);
 		
 		Retangulo primeiroRetangulo = new Retangulo();
-		primeiroRetangulo.setBase(7);
-		primeiroRetangulo.setAltura(4);
+		primeiroRetangulo.setBase(3);
+		primeiroRetangulo.setAltura(6);
 		
 		Triangulo primeiroTriangulo = new Triangulo();
 		primeiroTriangulo.setBase(8);
