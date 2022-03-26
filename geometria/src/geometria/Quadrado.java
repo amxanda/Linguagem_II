@@ -5,7 +5,7 @@ public class Quadrado
 	//atributo
 	private double lado;
 	
-	//métodos
+	//mÃ©todos
 	public void setLado(double lado)
 	{
 		if(lado > 0)
