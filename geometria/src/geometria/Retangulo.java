@@ -5,7 +5,7 @@ public class Retangulo
 	//atributos
 	private double base, altura;
 	
-	//métodos
+	//mÃ©todos
 	public void setBase(double base)
 	{
 		if(base > 0)
@@ -31,14 +31,18 @@ public class Retangulo
 	
 	public void desenhar()
 	{
-		for(int i=0; i < base; i++)
+		for(int i=0; i < altura; i++)
 		{	
-			for (int j=0; j < altura; j++) 
-			{
-				System.out.print(" .");
-			}
 			System.out.println(" .");
-		}
 
+			for (int j=0; j < base; j++) 
+			{
+				if(i == 0 || i + 1 == altura)
+				{
+					System.out.print(" .");	
+				}
+			}
+			System.out.println(" .");	
+		}
 	}
 }
