@@ -30,8 +30,6 @@ public class Circulo
 				System.out.print(" .");
 			}
 			System.out.println(" .");
-			
-			
 		}
 	}
 }
