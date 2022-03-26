@@ -1,10 +1,10 @@
 package geometria;
 
-public class Triangulo 
+public class Retangulo 
 {
 	//atributos
 	private double base, altura;
-	
+
 	//métodos
 	public void setBase(double base)
 	{
@@ -13,7 +13,7 @@ public class Triangulo
 			this.base = base;	
 		}
 	}
-	
+
 	public void setAltura(double altura)
 	{
 		if(altura > 0)
@@ -21,29 +21,23 @@ public class Triangulo
 			this.altura = altura;	
 		}
 	}
-	
+
 	public double calculaArea()
 	{
-		double area = base * altura / 2 ;
-		
+		double area = base * altura;
+
 		return area;
 	}
-	
+
 	public void desenhar()
 	{
 		for(int i=0; i < base; i++)
-		{			
-			for (int j = 0; j <= i; j++) 
+		{	
+			for (int j=0; j < altura; j++) 
 			{
-				if( i == j ) 
-				{
-					System.out.println(" ");
-				}
-				else
-				{
-					System.out.print(" .");
-				}
+				System.out.print(" .");
 			}
+			System.out.println(" .");
 		}
 	}
 }
