@@ -5,7 +5,7 @@ public class Circulo
 	//atributos
 	private double raio;
 	
-	//métodos
+	//mÃ©todos
 	public void setRaio(double raio)
 	{
 		if(raio > 0)
