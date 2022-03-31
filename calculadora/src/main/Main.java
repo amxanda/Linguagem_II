@@ -44,29 +44,30 @@ public class Main
 			switch(op) 
 			{
 				case 1:
-						System.out.println("Soma: "+ nI + "+" + nII + "= " + calc.sum(nI,nII));
-						System.out.println("\n");
-					break;
+					System.out.println("Soma: "+ nI + "+" + nII + "= " + calc.sum(nI,nII));
+					System.out.println("\n");
+				break;
 				case 2:
-						System.out.println("Subtração: "+ nI + "+" + nII + "= " + calc.sub(nI, nII));
-						System.out.println("\n");
-					break;
+					System.out.println("Subtração: "+ nI + "+" + nII + "= " + calc.sub(nI, nII));
+					System.out.println("\n");
+				break;
 				case 3:
-						System.out.println("Divisão: "+ nI + "+" + nII + "= " + calc.div(nI, nII));
-						System.out.println("\n");
-					break;
+					System.out.println("Divisão: "+ nI + "+" + nII + "= " + calc.div(nI, nII));
+					System.out.println("\n");
+				break;
 				case 4:
-						System.out.println("Multiplicação: "+ nI + "+" + nII + "= " + calc.mult(nI, nII));
-						System.out.println("\n");
-					break;
+					System.out.println("Multiplicação: "+ nI + "+" + nII + "= " + calc.mult(nI, nII));
+					System.out.println("\n");
+				break;
 				case 5:
-						List<String> operations = calc.getLastOperations();
-						System.out.println("Operações realizadas: ");
-						for (String operation : operations) 
-						{
-							System.out.println(operation);
-						}
-					break;
+					List<String> operations = calc.getLastOperations();
+					System.out.println("Operações realizadas: ");
+					
+					for (String operation : operations) 
+					{
+						System.out.println(operation);
+					}
+				break;
 				default:
 					System.out.println(" Opção Invalida.");
 			}
