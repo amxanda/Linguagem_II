@@ -45,19 +45,19 @@ public class Main
 			{
 				case 1:
 					System.out.println("Soma: "+ nI + "+" + nII + "= " + calc.sum(nI,nII));
-					System.out.println("\n");
+					System.out.println("");
 				break;
 				case 2:
 					System.out.println("Subtração: "+ nI + "+" + nII + "= " + calc.sub(nI, nII));
-					System.out.println("\n");
+					System.out.println("");
 				break;
 				case 3:
 					System.out.println("Divisão: "+ nI + "+" + nII + "= " + calc.div(nI, nII));
-					System.out.println("\n");
+					System.out.println("");
 				break;
 				case 4:
 					System.out.println("Multiplicação: "+ nI + "+" + nII + "= " + calc.mult(nI, nII));
-					System.out.println("\n");
+					System.out.println("");
 				break;
 				case 5:
 					List<String> operations = calc.getLastOperations();
