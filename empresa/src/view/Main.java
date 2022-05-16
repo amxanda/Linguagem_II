@@ -35,10 +35,10 @@ public class Main {
         	System.out.print("Digite o nome do funcionario: ");
         	String nome = entrada.next();
              
-	        System.out.print("Digite o CPF do funcion·rio: ");
+	        System.out.print("Digite o CPF do funcion√°rio: ");
 	        String cpf = entrada.next();
 	
-	        System.out.print("Digite o sal·rio do funcion·rio: ");
+	        System.out.print("Digite o sal√°rio do funcion√°rio: ");
 	        double salario = entrada.nextDouble();
 	        
 	        System.out.println("");
@@ -52,7 +52,6 @@ public class Main {
 	        System.out.println(empresa1.getCnpj());
 	        System.out.println("");
 	        
-
         	System.out.println(funcionario1.getNome());
         	System.out.println(funcionario1.getCpf());
         	System.out.println(funcionario1.getSalario());
